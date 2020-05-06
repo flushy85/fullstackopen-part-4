@@ -1,0 +1,11 @@
+
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpvZXkxMjMiLCJpZCI6IjVlOTU3ZjVkM2ZjYTllM2Q3ZjQ5NjdkYyIsImlhdCI6MTU4Njg2NjY1M30.HHp3TRB-OBscE_uluraltBq5XIOyyZj9epOBz_kUl4M
+
+{
+	"title": "yet another blog post",
+	"author": "anyone mark 2",
+	"url": "www.thisisit.com",
+	"userId": "5e957f5d3fca9e3d7f4967dc"
+}
